@@ -1,11 +1,10 @@
 # AI_Assignment2
 
-You can run these two programs in terminal, for example >>python model-free.py
+Both Model-based and Model-free use the same input method, open(sys.argv[1], 'r'), to accept whatever text file you may wish to use. In the terminal, simply:
 
-In order for the test to work, please include the test file in the same directory as the programs. 
+1. cd [file path to wherever you're storing the .py file]
+2. type in the line: python file.py map while 'file' is the name of one of our search .py files and 'map' is the name of the map input text file - please don't type '.txt' at the end, as it will think that it is a different kind of file
 
-Also please use the test file on this git repo, I've tried using a different test file but failed. The content of the test and the test from the professor are the same, in fact they are both from the professor, I couldn't figure out why the one on sakai doesn't work. 
-
-I used a function random.choices, which is new in Python 3.6, pleased have Python 3.6 installed before running, otherwise, it will fail. 
+Used a function random.choices, which is new in Python 3.6, pleased have Python 3.6 installed before running, otherwise, it will fail. 
 
 Thank you very much!
